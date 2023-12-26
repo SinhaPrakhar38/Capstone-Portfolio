@@ -1,0 +1,348 @@
+*{
+    background-color: #ede0d4;
+    scroll-padding: 55px;
+    scroll-behavior:smooth;
+}
+
+.header{
+    margin-right:80px;
+    margin-top: 50px;
+}
+
+.header-list{
+    list-style: none;
+    display: flex;
+    font-size: 25px;
+    justify-content: center;
+}
+
+.header-list li a{
+    text-decoration: none;
+    color: #804f3b;
+    padding: 15px;
+    transition: all 0.3s ease;
+}
+
+.header-list li a:hover{
+    background-color: #804f3b;
+    color: #ede0d4;
+    border-radius: 30px;
+}
+
+.parent-box{
+    display: flex;
+    height: 100vh;
+}
+
+.left-section{
+    width: 80%;
+}
+
+.div-1{
+    display: flex;
+    padding: 40px;
+}
+
+.college-name{
+    padding-left: 10px;   
+    font-family: 'Raleway',sans-serif;
+    color: #804f3b;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+.div-2{
+    font-size: 100px;
+    color: #804f3b;
+    justify-content: center;
+}
+
+
+.name{
+    margin: 100px 0 10px 150px;
+    font-size: 70px;
+    padding: 0 40px 0 40px;
+    font-weight: bold;
+}
+
+.branch{
+    margin: 15px 0 0 150px;
+    font-size: 42px;
+    padding: 0 40px 0 40px;
+}
+
+.profile-photo{
+    margin-top: 100px;
+    padding-right: 40px;
+}
+
+.pro-pic{
+    height: 500px;
+    margin-right:50px;
+    border-radius: 50%;
+    width: 560px;
+}
+
+.right-section{
+    background-color: #e6ccb2;
+    width: 200px;
+    height: 100vh;
+}
+
+hr{
+    border: 5px solid rgba(253, 247, 247, 0.584);
+    border-radius: 10px;
+    width: 100%;
+}
+
+h3{
+    padding-bottom: 10px;
+    margin-left: 118px;
+}
+
+.intro{
+    color:#804f3b;
+    font-size: 50px;
+    padding-left: 40px;
+    text-wrap: balance;
+}
+
+.About-Me-Text{
+    font-size: 30px;
+    padding-left: 120px;
+}
+
+.About-Me-p-Text{
+    font-size: 30px;
+    margin-left: 120px;
+}
+
+.education{
+    display: flex;
+    flex-direction: column;
+    margin-left: 160px;
+    font-size: 35px;
+}
+
+.education h3{
+    font-size: 60px;
+    margin-left: 0px;
+    color:#804f3b;
+    font-weight: 900;
+}
+
+.education ul li{
+    font-size: 30px;
+    color:#804f3b;
+    font-weight: 600;
+}
+
+.education ul p{
+    font-size: 30px;
+    color:#804f3b;
+    font-weight: 300;
+    margin-right:125px;
+}
+
+.Acad-projects{
+    padding-left: 40px;
+    font-size: 52px;
+}
+
+.projects{
+    background-color: #ede0d4;
+    color: #804f3b;
+    margin-top: 30px;
+    font-size: 30px;
+}
+
+.uno-list{
+    list-style: none;
+}
+
+.links{
+    text-decoration: none;
+    color: #804f3b;
+    font-weight: 1000;
+    margin-left: 120px;
+}
+
+.About-projects{
+    padding-left: 20px;
+    color: #804f3b;
+    margin-left: 120px;
+    padding-right: 120px;
+}
+
+.skills{
+    width: 700px;
+    margin: 20px ;
+    color: #804f3b;
+    margin-left: 160px;
+    /* box-shadow: 0 14px 28px rgba(0,0,0,0.25),0 10px 10px rbga(0,0,0,0.22); */
+}
+
+.skills h1{
+    font-size: 50px;
+}
+
+.skills li{
+    list-style: none;
+    margin: 20px 0;
+    padding: 10px;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+
+.bar{
+    background-color: #353b48;
+    display: block;
+    height: 20px;
+    border: 1px solid rgba(0,0,0,0.3);
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1),0 1px 2px rbga(0,0,0,1);
+    transition: all 0.4s cubic-bezier(.25,.8,.25,1);
+}
+
+.bar:hover{
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25),0 10px 10px rbga(0,0,0,0.22);
+    transform: scale(1.1);
+}
+
+.bar span{
+    height:20px ;
+    float: left;
+    background: #C69774;
+}
+
+.skills-name{
+    margin-left: 0px;
+}
+
+.Python{
+    width: 70%;
+    animation: Python 3s;
+}
+
+.Jupyter{
+    width: 90%;
+    animation: Jupyter 3s;
+}
+
+.Java{
+    width: 60%;
+    animation: Java 3s;
+}
+
+.DSA{
+    width: 50%;
+    animation: DSA 3s;
+}
+
+.certifications h3{
+    font-size: 60px;
+    margin-left: 170px;
+    color:#804f3b;
+    font-weight: 600;
+}
+
+.image-block{
+    display: flex;
+    height: 500px;
+    width: 800px;
+    margin-left:125px;
+}
+
+.image-block img{
+    padding: 20px;
+}
+
+
+.contact-form {
+    max-width: 400px;
+    margin: 50px auto;
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #C69774;
+    box-shadow: 0px 0px 30px #BA704F;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    height: 70vh;
+    background-color: #C69774;
+    
+}
+
+h2{
+    margin: 0 0 30px 0;
+    background-color: #C69774;
+}
+
+label {
+    margin-bottom: 10px;
+    background-color: #C69774;
+}
+
+input, textarea {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+button {
+    background-color: #804f3b;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 100px;
+    margin-left: 140px;
+    border-radius: 50px;
+    margin-top: 40px;
+    height: 50px;
+    font-size:20px;
+}
+
+button:hover {
+    transform: scale(1.01);
+    transition: all 1s ease;
+    background-color: white;
+    color: green;
+    font-size:25px;
+}
+
+.footer p{
+    color:#804f3b;
+    padding: 0 0 0 380px;
+    font-size: 50px;
+    margin-left: 60px;
+}
+
+.Social-links{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 0 300px 0 300px;
+}
+
+.Social-links li a{
+    text-decoration: none;
+    color: #804f3b;
+    font-size: 30px;
+}
+
+.Social-links li a:hover{
+    color: rgba(0,0,255,1);
+    transition: all 0.4s ease-in-out;
+    text-decoration: underline;
+    text-decoration-color: #804f3b;
+    text-underline-offset: 10px;
+    transform: scale(1.3);
+}
